@@ -1,0 +1,35 @@
+ion-grid{
+  height: 100%;
+}
+
+ion-row{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  height: 100%;
+}
+
+#qr-icon{
+  font-size: 190px;
+}
+
+ion-button{
+  text-transform: none;
+}
+
+#qrImage{
+  padding: 20px 0px;
+}
+
+.qr-wrapper{
+  width: 230px;
+  min-height: 230px;
+  background: var(--ion-color-primary);
+  border-radius: 20px;
+}
+
+.d-flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
